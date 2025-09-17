@@ -94,6 +94,14 @@ k8s-monitoring:
           - node_disk_writes_completed_total
           - node_disk_io_now
   alloy-metrics:
+    alloy:
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "250m"
+        limits:
+          memory: "128Mi"
+          cpu: "250m"
     logging:
       level: info
     enabled: true
@@ -116,6 +124,14 @@ k8s-monitoring:
     enabled: true
   alloy-singleton:
     enabled: true
+    alloy:
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "250m"
+        limits:
+          memory: "128Mi"
+          cpu: "250m"
   podLogs:
     enabled: true
     labelsToKeep:
@@ -137,9 +153,16 @@ k8s-monitoring:
       - k8s.job.name
       - k8s.node.name
       - stream
-      
-  alloy-logs:
+  alloy-logs:      
     enabled: true
+    alloy:
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "250m"
+        limits:
+          memory: "128Mi"
+          cpu: "250m"
   annotationAutodiscovery:
     enabled: true
   prometheusOperatorObjects:
@@ -160,3 +183,11 @@ k8s-monitoring:
               useDefaultAllowList: false
               includeMetrics:
                 - alloy_build_info
+  alloy-operator:
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "250m"
