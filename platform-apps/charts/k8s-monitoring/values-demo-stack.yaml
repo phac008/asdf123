@@ -21,6 +21,8 @@ k8s-monitoring:
     kubeDNS:
       enabled: true
       jobLabel: integrations/coredns
+    kepler:
+      enabled: false
     kubelet:
       metricsTuning:
         includeMetrics:
