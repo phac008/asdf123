@@ -99,7 +99,7 @@ k8s-monitoring:
     alloy:
       resources:
         requests:
-          memory: "64Mi"
+          memory: "128Mi"
           cpu: "250m"
         limits:
           memory: "128Mi"
