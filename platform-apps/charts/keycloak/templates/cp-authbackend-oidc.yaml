@@ -12,7 +12,7 @@ spec:
   # Optional: hard cap so Kubernetes kills the Pod if it runs too long.
   # Keep this >= TIMEOUT_SECONDS.
   activeDeadlineSeconds: 360
-  backoffLimit: 0          # we handle retries inside the container
+  backoffLimit: 1          # we handle retries inside the container
   template:
     spec:
       restartPolicy: Never
