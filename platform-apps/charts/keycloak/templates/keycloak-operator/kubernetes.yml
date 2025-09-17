@@ -382,10 +382,10 @@ spec:
           resources:
             limits:
               cpu: 700m
-              memory: 450Mi
+              memory: 250Mi
             requests:
               cpu: 150m
-              memory: 450Mi
+              memory: 250Mi
           startupProbe:
             failureThreshold: 3
             httpGet:
