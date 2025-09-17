@@ -1,0 +1,8 @@
+scmAppsetRequeueAfterSeconds: 30
+multiStageKargoAppSetHelmRepo: https://github.com/phac008/asdf123
+
+destinationClusters:
+  - name: in-cluster
+    allowedTeams: [".*"]
+
+teams: []
