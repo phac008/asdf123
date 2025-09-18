@@ -19,6 +19,15 @@ mimir:
     structuredConfig:
       limits:
         max_global_series_per_user: 500000
+      distributor:
+        ingestion_replication_factor: 1
+        ring:
+          kvstore: { store: memberlist }
+      ingester:
+        lifecycler:
+          ring:
+            replication_factor: 1 
+            kvstore: { store: memberlist }
   distributor:
     resources:
       limits:
