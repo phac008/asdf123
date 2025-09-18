@@ -99,13 +99,13 @@ argo-cd:
         p, backstage, applications, get, */*, allow
 
   controller:
-  resources:
-    limits:
-      cpu: 500m
-      memory: 1024Mi
-    requests:
-      cpu: 500m
-      memory: 1024Mi
+    resources:
+      limits:
+        cpu: 500m
+        memory: 1024Mi
+      requests:
+        cpu: 500m
+        memory: 1024Mi
     env:
       - name: ARGOCD_K8S_CLIENT_QPS
         value: "300"
