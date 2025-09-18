@@ -25,6 +25,8 @@ mimir:
         cpu: 3.5
         memory: 6Gi
   ingester:
+    zoneAwareReplication:
+      enabled: false
     resources:
       requests:
         cpu: 50m
@@ -34,9 +36,15 @@ mimir:
     persistentVolume:
       size: 5Gi
   store_gateway:
+    zoneAwareReplication:
+      enabled: false
     resources:
       requests:
         cpu: 50m
+  querier:
+    replicas: 1
+  query-scheduler:
+    replicas: 1
   minio:
     persistence:
       size: 10Gi
