@@ -1,5 +1,5 @@
 cloudnative-pg:
-  replicaCount: 2
+  replicaCount: 1
   monitoring:
     podMonitorEnabled: true
  # commonAnnotations:
