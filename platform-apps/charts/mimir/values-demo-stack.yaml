@@ -25,6 +25,7 @@ mimir:
         cpu: 3.5
         memory: 6Gi
   ingester:
+    replicas: 1
     zoneAwareReplication:
       enabled: false
     resources:
