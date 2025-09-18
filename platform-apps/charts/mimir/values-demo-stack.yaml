@@ -44,7 +44,7 @@ mimir:
         cpu: 50m
   querier:
     replicas: 1
-  query-scheduler:
+  query_scheduler:  
     replicas: 1
   minio:
     persistence:
