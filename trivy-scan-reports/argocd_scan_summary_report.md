@@ -3,7 +3,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/gosu</code></h3>
-<h4>Vulnerabilities (35)</h4>
+<h4>Vulnerabilities (36)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -252,6 +252,13 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-47906</td>
+        <td>HIGH</td>
+        <td>v1.18.2</td>
+        <td>1.23.12, 1.24.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-47907</td>
         <td>HIGH</td>
         <td>v1.18.2</td>
@@ -270,7 +277,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/gomplate</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (2)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -278,6 +285,13 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-47906</td>
+        <td>HIGH</td>
+        <td>v1.24.5</td>
+        <td>1.23.12, 1.24.6</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -296,7 +310,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/helm</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (2)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -304,6 +318,13 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-47906</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.23.12, 1.24.6</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -315,7 +336,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/kustomize</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (2)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -323,6 +344,13 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-47906</td>
+        <td>HIGH</td>
+        <td>v1.22.7</td>
+        <td>1.23.12, 1.24.6</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
